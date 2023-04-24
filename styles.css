@@ -1,0 +1,100 @@
+main {
+    padding-top: 100px;
+}
+
+nav {
+    background-color: #ED9B40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid black;
+}
+
+section {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+.title {
+    color: #fff;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.nav-items {
+    margin-right: 10px;
+    display: flex;
+    list-style: none;
+}
+
+.nav-items li {
+    margin-right: 40px;
+}
+
+.nav-items li a {
+    text-decoration: none;
+}
+
+.headings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.color-box {
+    border: 1px solid black;
+    height: 300px;
+    width: 150px;
+    display: inline-block;
+}
+
+.buttons {
+    border: 1px solid black;
+    height: 60px;
+    width: 150px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.buttons p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    line-height: 30px;
+}
+
+#lion {
+    background-color: #AA8F66;
+}
+
+#butterscotch {
+    background-color: #ED9B40;
+}
+
+#antique-white {
+    background-color: #FFEEDB;
+}
+
+#mint {
+    background-color: #61C9A8;
+}
+
+#cardinal {
+    background-color: #BA3B46;
+}
