@@ -1,7 +1,7 @@
 /*font-families:
-font-family: 'Aldrich', sans-serif;
-font-family: 'Anaheim', sans-serif;
-font-family: 'Azeret Mono', monospace;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Code Pro', monospace;
 */
 
 main {
@@ -25,7 +25,7 @@ nav {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Anaheim', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 section {
@@ -37,6 +37,28 @@ section {
     
 }
 
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+
+}
 
 .title {
     color: #000;
@@ -97,9 +119,68 @@ section {
     
 }
 
+#lion {
+    background-color: #AA8F66;
+}
+
+#butterscotch {
+    background-color: #ED9B40;
+}
+
+#antique-white {
+    background-color: #FFEEDB;
+}
+
+#mint {
+    background-color: #61C9A8;
+}
+
+#cardinal {
+    background-color: #BA3B46;
+}
+
+
 #antique-white p {
     color: black;
 }
+
+#text-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#text-style-blocks {
+    margin: 20px 40px;
+}
+
+
+.regular {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.nunito-sans {
+    font-family: 'Nunito Sans', sans serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans serif;
+}
+
+.source-code-pro {
+    font-family: 'Source Code Pro', monospace;
+}
+
 
 .my-buttons {
     display: flex;
@@ -129,26 +210,47 @@ section {
     text-align: center;
     align-self: center;
     line-height: 30px;
-    font-weight: bold;
+    font-weight: normal;
   
 }
 
-#lion {
+.buttons p:hover {
+    cursor: pointer;
+}
+
+#primary-button {
     background-color: #AA8F66;
 }
 
-#butterscotch {
-    background-color: #ED9B40;
+#primary-button:hover {
+    background-color: #AA8F40;
 }
 
-#antique-white {
+#secondary-button {
     background-color: #FFEEDB;
 }
 
-#mint {
+#secondary-button:hover {
+    background-color: white;
+}
+
+#confirmation-button {
     background-color: #61C9A8;
 }
 
-#cardinal {
+#confirmation-button:hover {
+    background-color: #16a578;
+}
+
+#warning-button {
     background-color: #BA3B46;
 }
+
+#warning-button:hover {
+    background-color: #d00c1c;
+}
+
+
+
+
+
